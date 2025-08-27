@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RALLBiZ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: #2b003b;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #7b2cbf, #3a0ca3);
+    }
+
+    #hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    #about, #pricing, #contact {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .pricing-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1b1b1b;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 0 15px rgba(123, 44, 191, 0.6);
+    }
+
+    .card h3 {
+      color: #bb86fc;
+    }
+
+    .price {
+      font-size: 1.5em;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    .social-icon {
+      width: 40px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2b003b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="RALLBiZ Logo" class="logo"/>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>RALLBiZ</h1>
+    <p>Smart Content. Local Impact.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>RALLBiZ helps businesses grow with smart branding, social content, and digital presence.</p>
+  </section>
+
+  <section id="pricing">
+    <h2>Our Packages</h2>
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Starter</h3>
+        <p>Basic logo + social media setup.</p>
+        <p class="price">R500</p>
+      </div>
+      <div class="card">
+        <h3>Growth</h3>
+        <p>Logo, flyers, social media content.</p>
+        <p class="price">R1200</p>
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <p>All-in-one branding + strategy.</p>
+        <p class="price">R2500</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Call us: 060 300 2305 | 063 620 4429</p>
+    <a href="https://www.facebook.com/share/1E3sRqX44F/" target="_blank">
+      <!-- Facebook SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 24 24">
+        <path d="M22.675 0h-21.35C.597 0 0 .598 0 1.333v21.333C0 23.403.597 24 1.325 
+        24h11.495v-9.294H9.691V11.04h3.129V8.414c0-3.1 
+        1.894-4.788 4.659-4.788 1.325 0 2.463.098 
+        2.795.142v3.24h-1.918c-1.504 0-1.795.715-1.795 
+        1.764v2.306h3.587l-.467 3.667h-3.12V24h6.116C23.403 
+        24 24 23.403 24 22.667V1.333C24 .598 23.403 0 22.675 0z"/>
+      </svg>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 RALLBiZ. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      console.log("RALLBiZ site loaded");
+    });
+  </script>
+</body>
+    </html>
